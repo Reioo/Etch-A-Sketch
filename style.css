@@ -1,4 +1,27 @@
 
 .gridsquare:hover {
-    background-color: cyan;
+    background-color: cyan;   
+}
+.gridsquare {
+    flex: auto;        
+}
+.rows {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.row {
+    flex: auto;
+}
+.container {
+    height: 900px;
+    width: 900px;
+    border: 2px solid black;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-direction: column;
+    
 }
