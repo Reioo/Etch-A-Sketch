@@ -4,7 +4,7 @@ const v = 16;
 
 function createGrid () {
 
-    
+  
     for (let i = 0; i < v; i++) {
         var row = document.createElement('div');
         row.className = 'row';
